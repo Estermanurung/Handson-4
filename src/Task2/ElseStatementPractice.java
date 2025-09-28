@@ -35,6 +35,11 @@ public class ElseStatementPractice {
         // Write if-else to check if temperature > 25
         // Print "Hot weather" if true, "Cool weather" if false
         double temperature = 22.5;
+        if (temperature > 25) {
+            System.out.println("Hot weather");
+        }else {
+            System.out.println("Cool weather");
+        }
         // Your code here:
 
 
@@ -44,6 +49,11 @@ public class ElseStatementPractice {
         // Print "Valid password" if true, "Password too short" if false
         String password = "abc123";
         // Your code here:
+        if (password.length() >= 8) {
+            System.out.println("Valid password");
+        } else {
+            System.out.println("Password too short");
+        }
 
 
         // TODO 4: Number Check
@@ -51,6 +61,11 @@ public class ElseStatementPractice {
         // Print "Positive number" if true, "Non-positive number" if false
         int number = -5;
         // Your code here:
+        if (number > 0) {
+            System.out.println("Positive number");
+        } else {
+            System.out.println("Non-positive number");
+        }
 
 
         // TODO 5: Grade Evaluation
@@ -58,6 +73,11 @@ public class ElseStatementPractice {
         // Print "Pass" if true, "Fail" if false
         int grade = 65;
         // Your code here:
+        if (grade >= 70) {
+            System.out.println("Pass");
+        }else {
+            System.out.println("Fail");
+        }
 
 
         // TODO 6: Array Size Check
@@ -65,6 +85,11 @@ public class ElseStatementPractice {
         // Print "Large array" if true, "Small array" if false
         String[] colors = {"red", "blue", "green"};
         // Your code here:
+        if (colors.length > 5) {
+            System.out.println("Large array");
+        }else {
+            System.out.println("Small array");
+        }
 
 
         // TODO 7: String Comparison
@@ -72,6 +97,11 @@ public class ElseStatementPractice {
         // Print "Welcome Admin!" if true, "Regular user" if false
         String name = "User";
         // Your code here:
+        if (name.equals ("Admin")) {
+            System.out.println("Welcome Admin!");
+        } else {
+            System.out.println("Regular user");
+        }
 
 
         // TODO 8: Boolean Check
@@ -79,6 +109,11 @@ public class ElseStatementPractice {
         // Print "User is online" if true, "User is offline" if false
         boolean isOnline = false;
         // Your code here:
+        if (isOnline) {
+            System.out.println("User is online");
+        } else {
+            System.out.println("User is offline");
+        }
 
 
         // TODO 9: Score Category
@@ -86,6 +121,11 @@ public class ElseStatementPractice {
         // Print "Excellent" if true, "Needs improvement" if false
         int score = 75;
         // Your code here:
+        if (score >= 80) {
+            System.out.println("Execellent");
+        }else {
+            System.out.println("Needs improvement");
+        }
 
 
         // TODO 10: Discount Eligibility
@@ -93,6 +133,11 @@ public class ElseStatementPractice {
         // Print "Eligible for discount" if true, "No discount available" if false
         double purchaseAmount = 85.50;
         // Your code here:
+        if (purchaseAmount >= 100) {
+            System.out.println("Eligible for discount");
+        } else {
+            System.out.println("No discount available");
+        }
 
     }
 }
